@@ -17,8 +17,8 @@ class App extends Component {
   getVenues = () => {
     const endPoint = "https://api.foursquare.com/v2/venues/explore?"
     const parameters = {
-      client_id:"KT1ZCUPPEQA2USJNMELLDGM3RROS0CTX1HK0K4WXZUL2BLKW",
-      client_secret:"ZJ33VGH5CP23BDFML5S3UBNHD52X3KQ3EN2JJNSLWCCHRDJZ",
+      client_id:"IDHERE_APICODE",
+      client_secret:"SECRETCLIENT_APICODE",
       query: "coffee",
       near:"Göteborg",
       v: "20182507"
